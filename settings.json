@@ -1,0 +1,98 @@
+{
+	"window.zoomLevel": -1,
+	"workbench.statusBar.visible": true,
+	"window.menuBarVisibility": "toggle",
+	"workbench.activityBar.visible": false,
+	"editor.minimap.enabled": false,
+	"editor.tabSize": 2,
+	"workbench.editor.tabSizing": "shrink",
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.folding": true,
+	"editor.glyphMargin": false,
+	"editor.smoothScrolling": true,
+	"php.validate.executablePath": "C:/Developer/php 7.3/php.exe",
+	"explorer.confirmDelete": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.fontFamily": "Consolas",
+	"editor.fontWeight": "500",
+	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+	"explorer.confirmDragAndDrop": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.formatOnSave": true,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 2,
+	"editor.fontSize": 16.6,
+	"workbench.editor.labelFormat": "short",
+	"breadcrumbs.enabled": true,
+	"prettier.useTabs": true,
+	"eslint.options": {
+		"extends": [
+			"react-app",
+			"prettier"
+		]
+	},
+	"eslint.alwaysShowStatus": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"workbench.colorCustomizations": {
+		// Gutter indicators (left)
+		"editorGutter.modifiedBackground": "#0000",
+		"editorGutter.addedBackground": "#0000",
+		"editorGutter.deletedBackground": "#0000",
+		// Scrollbar indicators (right)
+		"editorOverviewRuler.addedForeground": "#0000",
+		"editorOverviewRuler.modifiedForeground": "#0000",
+		"editorOverviewRuler.deletedForeground": "#0000"
+	},
+	"workbench.colorTheme": "Palenight Theme",
+	"cSpell.userWords": [
+		"Unmount",
+		"Roboto",
+		"tinycolor",
+		"__DEV__",
+		"Cascader",
+		"DEVTOOLS",
+		"Dropdown",
+		"Formik",
+		"Topbar",
+		"allowfullscreen",
+		"codemirror",
+		"ecommerce",
+		"firestore",
+		"gmail",
+		"hocs",
+		"nicename",
+		"typeorm",
+		"varchar",
+		"woff"
+	],
+	"cSpell.ignorePaths": [
+		"**/package-lock.json",
+		"**/node_modules/**",
+		"**/vscode-extension/**",
+		"**/.git/objects/**",
+		".vscode",
+		"**/*.json"
+	],
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"git.autofetch": true,
+	"git.ignoreLegacyWarning": true,
+	"git.decorations.enabled": false,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
