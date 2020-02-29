@@ -1,5 +1,5 @@
 {
-	"window.zoomLevel": -1,
+	"window.zoomLevel": 0,
 	"workbench.statusBar.visible": true,
 	"window.menuBarVisibility": "toggle",
 	"workbench.activityBar.visible": false,
@@ -9,24 +9,45 @@
 	"editor.detectIndentation": false,
 	"editor.insertSpaces": false,
 	"editor.folding": true,
+	"python.linting.enabled": false,
+	"python.linting.maxNumberOfProblems": 50,
+	"python.formatting.autopep8Args": [
+		"--max-line-length",
+		"105",
+		"--ignore",
+		"W191,E101,E111,E302,E265,E121",
+		"--indent-size",
+		"2",
+		"--experimental"
+	],
+	"python.linting.pylintArgs": [
+		"--load-plugins",
+		"pylint_django"
+	],
+	"python.linting.pylintEnabled": false,
+	"python.linting.lintOnSave": false,
 	"editor.glyphMargin": false,
 	"editor.smoothScrolling": true,
 	"php.validate.executablePath": "C:/Developer/php 7.3/php.exe",
 	"explorer.confirmDelete": false,
 	"workbench.iconTheme": "material-icon-theme",
-	"editor.fontFamily": "Consolas",
-	"editor.fontWeight": "500",
+	"editor.fontFamily": "Consolas, Inter, JetBrains Mono",
+	"editor.fontWeight": "400",
 	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
 	"explorer.confirmDragAndDrop": false,
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"editor.formatOnSave": true,
 	"prettier.semi": false,
+	"prettier.printWidth": 105,
 	"prettier.singleQuote": true,
 	"prettier.tabWidth": 2,
-	"editor.fontSize": 16.6,
+	"editor.fontSize": 16.5,
 	"workbench.editor.labelFormat": "short",
 	"breadcrumbs.enabled": true,
 	"prettier.useTabs": true,
+	"typescript.suggest.includeAutomaticOptionalChainCompletions": true,
+	"javascript.suggest.includeAutomaticOptionalChainCompletions": true,
+	"processing.path": "C:\\processing-3.5.3\\processing-java.exe",
 	"eslint.options": {
 		"extends": [
 			"react-app",
@@ -47,7 +68,6 @@
 		"editorOverviewRuler.modifiedForeground": "#0000",
 		"editorOverviewRuler.deletedForeground": "#0000"
 	},
-	"workbench.colorTheme": "Palenight Theme",
 	"cSpell.userWords": [
 		"Unmount",
 		"Roboto",
@@ -94,5 +114,19 @@
 	"git.decorations.enabled": false,
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+	},
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"python.jediEnabled": false,
+	"kite.showWelcomeNotificationOnStartup": false,
+	"workbench.colorTheme": "Palenight Theme",
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python"
+	},
 }
