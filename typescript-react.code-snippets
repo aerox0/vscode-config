@@ -16,21 +16,19 @@
 	// 	"description": "Log output to console"
 	// }
 	"Typescript React Function Component": {
-		"prefix": [
-			"rh"
-		],
+		"prefix": ["rh"],
 		"body": [
 			"import React from 'react'",
-			"\t",
-			"interface Props {",
-			"\t",
+			"",
+			"interface ${TM_FILENAME_BASE}Props {",
+			"$1",
 			"}",
-			"\t",
-			"const $1: React.FC<Props> = () => {",
-			"\treturn ($2)",
+			"",
+			"const $TM_FILENAME_BASE: React.FC<{$TM_FILENAME_BASE}Props> = ({$2}) => {",
+			"\treturn ($3)",
 			"}",
-			"\t",
-			"export default React.memo($1)"
+			"",
+			"export default React.memo($TM_FILENAME_BASE)"
 		],
 		"description": "Typescript React Function Component"
 	}
