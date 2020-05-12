@@ -1,14 +1,64 @@
 {
+	// Editor
 	"window.zoomLevel": 0,
-	"workbench.statusBar.visible": true,
 	"window.menuBarVisibility": "toggle",
+	"workbench.statusBar.visible": true,
 	"workbench.activityBar.visible": false,
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.colorTheme": "Palenight Theme",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.editor.labelFormat": "short",
+	"workbench.colorCustomizations": {
+		"editorGutter.modifiedBackground": "#0000",
+		"editorGutter.addedBackground": "#0000",
+		"editorGutter.deletedBackground": "#0000",
+		"editorOverviewRuler.addedForeground": "#0000",
+		"editorOverviewRuler.modifiedForeground": "#0000",
+		"editorOverviewRuler.deletedForeground": "#0000"
+	},
 	"editor.minimap.enabled": false,
 	"editor.tabSize": 2,
-	"workbench.editor.tabSizing": "shrink",
 	"editor.detectIndentation": false,
 	"editor.insertSpaces": false,
 	"editor.folding": true,
+	"editor.glyphMargin": false,
+	"editor.smoothScrolling": true,
+	"editor.fontFamily": "Consolas, Inter, JetBrains Mono",
+	"editor.formatOnSave": true,
+	"editor.fontSize": 16,
+	"editor.suggestSelection": "first",
+	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+	"breadcrumbs.enabled": true,
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"material-icon-theme.folders.theme": "classic",
+	//
+	// JS & TS
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.suggest.includeAutomaticOptionalChainCompletions": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"javascript.suggest.includeAutomaticOptionalChainCompletions": true,
+	"eslint.alwaysShowStatus": true,
+	"prettier.semi": false,
+	"prettier.printWidth": 100,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 2,
+	"prettier.useTabs": true,
+	//
+	// Git
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"git.autofetch": true,
+	"git.ignoreLegacyWarning": true,
+	"git.decorations.enabled": false,
+	//
+	// Python
 	"python.linting.enabled": false,
 	"python.linting.maxNumberOfProblems": 50,
 	"python.formatting.autopep8Args": [
@@ -26,107 +76,9 @@
 	],
 	"python.linting.pylintEnabled": false,
 	"python.linting.lintOnSave": false,
-	"editor.glyphMargin": false,
-	"editor.smoothScrolling": true,
-	"php.validate.executablePath": "C:/Developer/php 7.3/php.exe",
-	"explorer.confirmDelete": false,
-	"workbench.iconTheme": "material-icon-theme",
-	"editor.fontFamily": "Consolas, Inter, JetBrains Mono",
-	"editor.fontWeight": "400",
-	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-	"explorer.confirmDragAndDrop": false,
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"editor.formatOnSave": true,
-	"prettier.semi": false,
-	"prettier.printWidth": 105,
-	"prettier.singleQuote": true,
-	"prettier.tabWidth": 2,
-	"editor.fontSize": 16.5,
-	"workbench.editor.labelFormat": "short",
-	"breadcrumbs.enabled": true,
-	"prettier.useTabs": true,
-	"typescript.suggest.includeAutomaticOptionalChainCompletions": true,
-	"javascript.suggest.includeAutomaticOptionalChainCompletions": true,
-	"processing.path": "C:\\processing-3.5.3\\processing-java.exe",
-	"eslint.options": {
-		"extends": [
-			"react-app",
-			"prettier"
-		]
-	},
-	"eslint.alwaysShowStatus": true,
-	"emmet.includeLanguages": {
-		"javascript": "javascriptreact"
-	},
-	"workbench.colorCustomizations": {
-		// Gutter indicators (left)
-		"editorGutter.modifiedBackground": "#0000",
-		"editorGutter.addedBackground": "#0000",
-		"editorGutter.deletedBackground": "#0000",
-		// Scrollbar indicators (right)
-		"editorOverviewRuler.addedForeground": "#0000",
-		"editorOverviewRuler.modifiedForeground": "#0000",
-		"editorOverviewRuler.deletedForeground": "#0000"
-	},
-	"cSpell.userWords": [
-		"Unmount",
-		"Roboto",
-		"tinycolor",
-		"__DEV__",
-		"Cascader",
-		"DEVTOOLS",
-		"Dropdown",
-		"Formik",
-		"Topbar",
-		"allowfullscreen",
-		"codemirror",
-		"ecommerce",
-		"firestore",
-		"gmail",
-		"hocs",
-		"nicename",
-		"typeorm",
-		"varchar",
-		"woff"
-	],
-	"cSpell.ignorePaths": [
-		"**/package-lock.json",
-		"**/node_modules/**",
-		"**/vscode-extension/**",
-		"**/.git/objects/**",
-		".vscode",
-		"**/*.json"
-	],
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"git.enableSmartCommit": true,
-	"git.confirmSync": false,
-	"git.autofetch": true,
-	"git.ignoreLegacyWarning": true,
-	"git.decorations.enabled": false,
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"editor.suggestSelection": "first",
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-	"files.exclude": {
-		"**/.classpath": true,
-		"**/.project": true,
-		"**/.settings": true,
-		"**/.factorypath": true
-	},
 	"python.jediEnabled": false,
-	"kite.showWelcomeNotificationOnStartup": false,
-	"workbench.colorTheme": "Palenight Theme",
-	"[python]": {
-		"editor.defaultFormatter": "ms-python.python"
-	},
+	//
+	// Go
+	"go.useLanguageServer": true,
+	"go.formatTool": "goimports",
 }
