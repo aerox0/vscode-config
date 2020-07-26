@@ -8,6 +8,7 @@
 	"workbench.colorTheme": "Palenight Theme",
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.editor.labelFormat": "short",
+	"workbench.list.smoothScrolling": true,
 	"workbench.colorCustomizations": {
 		"editorGutter.modifiedBackground": "#0000",
 		"editorGutter.addedBackground": "#0000",
@@ -37,7 +38,7 @@
 		"**/.settings": true,
 		"**/.factorypath": true
 	},
-	"material-icon-theme.folders.theme": "classic",
+	"material-icon-theme.folders.theme": "specific",
 	//
 	// JS & TS
 	"typescript.updateImportsOnFileMove.enabled": "always",
@@ -50,6 +51,12 @@
 	"prettier.singleQuote": true,
 	"prettier.tabWidth": 2,
 	"prettier.useTabs": true,
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	//
 	// Git
 	"git.enableSmartCommit": true,
@@ -59,26 +66,19 @@
 	"git.decorations.enabled": false,
 	//
 	// Python
-	"python.linting.enabled": false,
 	"python.linting.maxNumberOfProblems": 50,
-	"python.formatting.autopep8Args": [
-		"--max-line-length",
-		"105",
-		"--ignore",
-		"W191,E101,E111,E302,E265,E121",
-		"--indent-size",
-		"2",
-		"--experimental"
-	],
-	"python.linting.pylintArgs": [
-		"--load-plugins",
-		"pylint_django"
-	],
-	"python.linting.pylintEnabled": false,
-	"python.linting.lintOnSave": false,
-	"python.jediEnabled": false,
+	"python.linting.pylintArgs": ["--max-line-length=100", "--errors-only"],
+	"python.formatting.provider": "none",
+	"python.linting.pylintEnabled": true,
+	"python.linting.enabled": true,
+	"python.languageServer": "Jedi",
 	//
 	// Go
 	"go.useLanguageServer": true,
 	"go.formatTool": "goimports",
+	//
+	// HTML
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	}
 }
