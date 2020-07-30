@@ -67,11 +67,15 @@
 	//
 	// Python
 	"python.linting.maxNumberOfProblems": 50,
-	"python.linting.pylintArgs": ["--max-line-length=100", "--errors-only"],
+	"python.linting.pylintArgs": [
+		"--max-line-length=100",
+		"--errors-only",
+		"--load-plugins=pylint_django"
+	],
 	"python.formatting.provider": "none",
 	"python.linting.pylintEnabled": true,
 	"python.linting.enabled": true,
-	"python.languageServer": "Jedi",
+	"python.languageServer": "Microsoft",
 	//
 	// Go
 	"go.useLanguageServer": true,
