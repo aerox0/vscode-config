@@ -24,9 +24,8 @@
 	"editor.folding": true,
 	"editor.glyphMargin": false,
 	"editor.smoothScrolling": true,
-	"editor.fontFamily": "Consolas, Inter, JetBrains Mono",
 	"editor.formatOnSave": true,
-	"editor.fontSize": 16,
+	"editor.fontSize": 16.5,
 	"editor.suggestSelection": "first",
 	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
 	"explorer.confirmDragAndDrop": false,
@@ -36,7 +35,11 @@
 		"**/.classpath": true,
 		"**/.project": true,
 		"**/.settings": true,
-		"**/.factorypath": true
+		"**/.factorypath": true,
+		"**/*.pyc": { "when": "$(basename).py" },
+		"**/__pycache__": true,
+		"**/.DS_Store": true,
+		"**/*.js.map": true
 	},
 	"material-icon-theme.folders.theme": "specific",
 	//
@@ -46,6 +49,10 @@
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"javascript.suggest.includeAutomaticOptionalChainCompletions": true,
 	"eslint.alwaysShowStatus": true,
+	// "editor.codeActionsOnSave": {
+	// 	"source.fixAll": true,
+	// 	"source.fixAll.eslint": true
+	// },
 	"prettier.semi": false,
 	"prettier.printWidth": 100,
 	"prettier.singleQuote": true,
@@ -75,7 +82,7 @@
 	"python.formatting.provider": "none",
 	"python.linting.pylintEnabled": true,
 	"python.linting.enabled": true,
-	"python.languageServer": "Microsoft",
+	"python.languageServer": "Pylance",
 	//
 	// Go
 	"go.useLanguageServer": true,
@@ -84,5 +91,8 @@
 	// HTML
 	"[html]": {
 		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
 	}
 }
