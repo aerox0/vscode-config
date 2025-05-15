@@ -1,0 +1,37 @@
+{
+	// Place your snippets for typescriptreact here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+	// Example:
+	"Typescript React Function Component": {
+		"prefix": "rh",
+		"body": [
+			"interface Props {",
+			"$2",
+			"}",
+			"",
+			"const ${1:${TM_FILENAME_BASE}}: React.FC<Props> = ({$3}) => {",
+			"\treturn ($4)",
+			"}",
+			"",
+			"export default ${1:${TM_FILENAME_BASE}}"
+		]
+	},
+	"Typescript NextJS Function Component": {
+		"prefix": "rhn",
+		"body": [
+			"import type { NextPage } from 'next'",
+			"",
+			"interface PageProps {",
+			"$2",
+			"}",
+			"",
+			"const ${1:${TM_FILENAME_BASE}}Page: NextPage<PageProps> = ({$3}) => {",
+			"\treturn ($4)",
+			"}",
+			"",
+			"export default ${1:${TM_FILENAME_BASE}}Page"
+		]
+	}
+}
